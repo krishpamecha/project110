@@ -1,0 +1,57 @@
+body
+{
+   color: aliceblue;
+}
+.background_image
+{
+    background-image: url("background.jpg");
+    background-size:cover;
+    background-position: center;
+    padding-bottom: 50px;
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 5px solid rgb(251, 243, 255);
+  width: 350px;
+  height: 300px; 
+}
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: black;
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+.heading
+{
+  font-size: 18px;
+  border-radius:10px;
+  letter-spacing:10px;
+}
+#c_button
+{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 15%, rgba(119,255,5,1) 50%, rgba(0,0,0,1) 90%);
+color: rgb(255, 255, 255);
+font-size: medium;
+font-weight: bolder;
+border-color:white ;
+border-radius: 20px;
+}
+label
+{
+  font-size:17px;
+  color:rgb(0, 255, 42);
+  padding: 6px;
+  border-radius:10px;
+  background-color: aliceblue;
+}
